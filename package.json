@@ -1,0 +1,33 @@
+{
+  "name": "one-tech-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Marketing website for One Tech: custom software, AI and automation.",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "gsap": "^3.15.0",
+    "matter-js": "^0.20.0",
+    "motion": "^14.0.0",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "postcss": "^8.5.29",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
+  }
+}

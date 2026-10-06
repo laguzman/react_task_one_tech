@@ -1,0 +1,22 @@
+# dependencies
+node_modules
+
+# Next.js build output
+.next
+out
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# secrets: never commit real keys (use .env.example as the template)
+.env*
+!.env.example
+
+# runtime data
+data
+
+# editor and OS files
+.idea
+.vscode
+.claude
+.DS_Store
+*.log
